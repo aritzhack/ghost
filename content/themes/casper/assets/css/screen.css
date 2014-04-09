@@ -379,7 +379,6 @@ margin on the iframe, cause it breaks stuff. */
 
 .blog-logo {
     text-decoration: none;
-	text-shadow: 0 0 2px #000;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
@@ -398,7 +397,7 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    text-shadow: 0 1px 6px rgba(0,0,0,0.1);
+	text-shadow: 0 0 5px #000;
 }
 
 .blog-description {
@@ -806,6 +805,7 @@ margin on the iframe, cause it breaks stuff. */
     .blog-title {
         font-size: 4rem;
         letter-spacing: -1px;
+		text-shadow: 0 0 5px #000;
     }
 
     .blog-description {
@@ -877,6 +877,7 @@ margin on the iframe, cause it breaks stuff. */
 
     .blog-title {
         font-size: 3rem;
+		text-shadow: 0 0 5px #000;
     }
 
     .blog-description {
