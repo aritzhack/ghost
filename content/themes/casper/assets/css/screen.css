@@ -397,7 +397,27 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-	text-shadow: 0 0 5px #000;
+	text-shadow:
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black,
+		0 0 4px black;
 }
 
 .blog-description {
@@ -805,7 +825,27 @@ margin on the iframe, cause it breaks stuff. */
     .blog-title {
         font-size: 4rem;
         letter-spacing: -1px;
-		text-shadow: 0 0 5px #000;
+		text-shadow:
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black;
     }
 
     .blog-description {
@@ -877,7 +917,27 @@ margin on the iframe, cause it breaks stuff. */
 
     .blog-title {
         font-size: 3rem;
-		text-shadow: 0 0 5px #000;
+		text-shadow:
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black,
+			0 0 4px black;
     }
 
     .blog-description {
