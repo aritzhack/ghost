@@ -143,7 +143,7 @@ table {
     height: 265px; }
 
 .button {
-  background: #303030;
+  background: #646464;
   border: none;
   border-radius: 3px;
   color: #FEFEFE;
@@ -152,10 +152,10 @@ table {
   padding: 10px 12px;
   text-transform: uppercase; }
   .button:hover {
-    background: #f03838; }
+    background: #303030; }
 
 .button-square {
-  background: #f03838;
+  background: #646464;
   color: #FFF;
   float: left;
   font-size: 17px;
@@ -185,7 +185,7 @@ table {
   text-transform: uppercase; }
   .site-title a {
     float: left;
-    background: #f03838;
+    background: #646464;
     color: #FEFEFE;
     padding: 5px 10px 6px; }
     .site-title a:hover {
@@ -272,7 +272,7 @@ table {
 .share {
   float: right; }
   .share a {
-    background: #f03838;
+    background: #646464;
     color: #FFF;
     display: inline-block;
     font-size: 16px;
@@ -281,7 +281,17 @@ table {
     width: 30px;
     text-align: center; }
   .share a:hover {
-    background: #303030; }
+    /*background: #303030;*/
+	color: #fff; }
+	
+a.icon-twitter:hover {
+  background: #55ACEE; }
+  
+a.icon-facebook:hover {
+  background: #3B5998; }
+  
+a.icon-google-plus:hover {
+  background: #DD4D39; }
 
 .post-navigation {
   display: table;

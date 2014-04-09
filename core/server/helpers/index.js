@@ -20,7 +20,10 @@ var downsize        = require('downsize'),
     coreHelpers     = {},
     registerHelpers;
 
+	/* Setting date lang to our own */
 
+	moment.lang('ES');
+	
 
 /**
  * [ description]

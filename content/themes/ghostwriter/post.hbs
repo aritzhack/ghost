@@ -6,7 +6,7 @@
             <header class="post-header">
                 <h1 class="post-title">{{title}}</h1>
 
-                <p class="post-date"><time datetime="{{published_at}}">Published {{date format="MMMM Do YYYY"}}</time></p>
+                <p class="post-date"><time datetime="{{published_at}}">Publicado el {{date format='LL'}}</time></p>
             </header>
 
             <div class="post-content clearfix">
@@ -15,7 +15,7 @@
 
             <footer class="post-footer clearfix">
                 {{#if tags}}
-                    <p class="post-tags"><span>Tagged:</span> {{tags}}</p>
+                    <p class="post-tags"><span>Etiquetas:</span> {{tags}}</p>
                 {{/if}}
 
                 <div class="share">

@@ -1,7 +1,7 @@
 {{!< default}}
 
 <div class="container">
-    <h1 class="page-title">Posts tagged: {{tag.name}}</h1>
+    <h1 class="page-title">Posts etiquetados: {{tag.name}}</h1>
 
     <ol class="post-list">
         {{#foreach posts}}
@@ -9,10 +9,10 @@
                 <a class="js-ajax-link"  title="{{title}}" href="{{url}}">
                     <h4 class="post-stub-title">{{title}}</h4>
 
-                    <time class="post-stub-date" datetime="{{published_at}}">Published {{date format="MMMM Do YYYY"}}</time>
+                    <time class="post-stub-date" datetime="{{published_at}}">Publicado el {{date format="LL"}}</time>
 
                     {{#if featured}}
-                        <span class="post-stub-tag">Featured</span>
+                        <span class="post-stub-tag">Destacado</span>
                     {{/if}}
                 </a>
             </li>
